@@ -68,6 +68,11 @@ export default {
 				},
 				// Custom colors for our e-commerce site
 				brand: {
+					yellow: {
+						light: '#FFF7CC',
+						DEFAULT: '#FFE566',
+						dark: '#FFD700',
+					},
 					purple: {
 						light: '#8B5CF6',
 						DEFAULT: '#7C3AED',

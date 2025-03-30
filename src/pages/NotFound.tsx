@@ -18,7 +18,7 @@ const NotFound = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-background">
       <div className="text-center max-w-md px-4">
-        <h1 className="text-9xl font-bold text-brand-purple mb-4">404</h1>
+        <h1 className="text-9xl font-bold text-brand-yellow mb-4">404</h1>
         <h2 className="text-2xl font-bold mb-4">Page Not Found</h2>
         <p className="text-muted-foreground mb-8">
           We couldn't find the page you're looking for. It might have been moved or doesn't exist.
@@ -26,14 +26,14 @@ const NotFound = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button 
             variant="outline" 
-            className="w-full sm:w-auto" 
+            className="w-full sm:w-auto border-brand-yellow text-brand-yellow-dark hover:bg-brand-yellow hover:text-foreground" 
             onClick={() => navigate(-1)}
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             Go Back
           </Button>
           <Button 
-            className="w-full sm:w-auto bg-brand-purple hover:bg-brand-purple-dark" 
+            className="w-full sm:w-auto bg-brand-yellow hover:bg-brand-yellow-dark text-foreground" 
             onClick={() => navigate('/')}
           >
             <ShoppingBag className="mr-2 h-4 w-4" />
