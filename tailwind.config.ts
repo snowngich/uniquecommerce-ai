@@ -66,22 +66,22 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for our e-commerce site
+				// Updated color scheme without yellow focus
 				brand: {
-					yellow: {
-						light: '#FFF7CC',
-						DEFAULT: '#FFE566',
-						dark: '#FFD700',
+					primary: {
+						light: '#60A5FA',
+						DEFAULT: '#3B82F6',
+						dark: '#2563EB',
 					},
-					purple: {
+					secondary: {
 						light: '#8B5CF6',
 						DEFAULT: '#7C3AED',
 						dark: '#6D28D9',
 					},
-					blue: {
-						light: '#60A5FA',
-						DEFAULT: '#3B82F6',
-						dark: '#2563EB',
+					accent: {
+						light: '#F472B6',
+						DEFAULT: '#EC4899',
+						dark: '#DB2777',
 					}
 				}
 			},
